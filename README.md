@@ -1,3 +1,6 @@
+# portfolio-website
+This is my portfolio website and I have developed it with reactJs. 
+To run this project on your local device :
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

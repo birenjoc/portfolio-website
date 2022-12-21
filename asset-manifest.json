@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.6651069b.css",
+    "main.js": "/portfolio-website/static/js/main.eea2f72e.js",
+    "static/media/birendra.jpg": "/portfolio-website/static/media/birendra.1f80acbc2e02bcac3af7.jpg",
+    "static/media/CV_biren1.pdf": "/portfolio-website/static/media/CV_biren1.2e69fba5bef031fee307.pdf",
+    "static/media/mypic.jpg": "/portfolio-website/static/media/mypic.cc603cb3c5a4cef848fc.jpg",
+    "static/media/hi-there.gif": "/portfolio-website/static/media/hi-there.530b0c4fd18d4c8f1b8d.gif",
+    "index.html": "/portfolio-website/index.html",
+    "main.6651069b.css.map": "/portfolio-website/static/css/main.6651069b.css.map",
+    "main.eea2f72e.js.map": "/portfolio-website/static/js/main.eea2f72e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6651069b.css",
+    "static/js/main.eea2f72e.js"
+  ]
+}

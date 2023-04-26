@@ -39,7 +39,7 @@ const footer = () => {
                 </div>
                 <div className="copyright">
                     <p>Made with react.js by Birendra Joshi.</p>
-              <h5>copyright <FaCopyright size={14} style={{color:"#fff", marginRight:"0.3rem", marginLeft:"0.3rem"}}/> 2022 | All Rights Reserved</h5> 
+              <h5>copyright <FaCopyright size={14} style={{color:"#fff", marginRight:"0.3rem", marginLeft:"0.3rem"}}/> 2023 | All Rights Reserved</h5> 
                 </div>
                
             </div>

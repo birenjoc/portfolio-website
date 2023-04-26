@@ -1,7 +1,15 @@
 import "./FormStyle.css";
 import emailjs from 'emailjs-com';
 import React from 'react'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
+const diffToast = () => {
+  
+  toast.success("Message Sent!" , {
+    position: "top-center"
+  });
+}
 const Form = () => {
   function sendEmail(e){
     e.preventDefault();
@@ -11,19 +19,22 @@ const Form = () => {
    }).catch(err=> console.log(err));
   }
   return (
+    <>
     <div className="frm">
       <form onSubmit={sendEmail}>
         <label>Your Name</label>
         <input type="text" name="name"></input>
         <label>Your Email</label>
-        <input type="email" name="user-email"></input>
+        <input type="email" name="user-email" required></input>
         <label>Subject</label>
         <input type="text" name="sub"></input>
         <label>Message</label>
-        <textarea rows="6" placeholder="Type your message here..." name="message"/>
-        <input type="submit" value="SEND" className="btn "></input>
+        <textarea rows="6" placeholder="Write your message here..." name="message"/>
+        <input type="submit" value="SEND" className="btn " onClick={diffToast}></input>
       </form>
     </div>
+    <ToastContainer />
+    </>
   )
 }
 
